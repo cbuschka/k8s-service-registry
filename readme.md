@@ -41,5 +41,9 @@ goto [localhost:5000/services](http://localhost:5000/services?namespace=default&
 make build
 ```
 
+## Related docs
+[k8s services](https://kubernetes.io/docs/concepts/services-networking/)
+[kubernetes-client for python](https://github.com/kubernetes-client/python/blob/master/kubernetes/docs/CoreV1Api.md#list_namespaced_service)
+
 ## License
 MIT
