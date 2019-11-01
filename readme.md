@@ -27,6 +27,7 @@ goto [localhost:5000/services](http://localhost:5000/services?namespace=default&
       "namespace": "default", 
       "ports": [
         {
+          "name": "http", 
           "port": 8080, 
           "protocol": "TCP"
         }

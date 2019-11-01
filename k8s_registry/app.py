@@ -21,7 +21,7 @@ def getServices():
   for item in ret.items:
     ports = []
     for port in item.spec.ports:
-      ports.append({"port": port.port, "protocol": port.protocol})
+      ports.append({"port": port.port, "protocol": port.protocol, "name": port.name})
     services.append({"ip": item.spec.cluster_ip,
       "namespace": item.metadata.namespace,
       "name": item.metadata.name,
