@@ -1,5 +1,10 @@
 # Prototype of a service registry exposing services registered in k8s
 
+## Prerequesites
+* python3
+* make
+* k8s cluster and $HOME/.kube/config setup
+
 ## Usage
 
 ### Start locally
